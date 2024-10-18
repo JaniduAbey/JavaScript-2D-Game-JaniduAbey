@@ -1,0 +1,347 @@
+.ninja {
+    height: 250px;
+    margin-top: 550px;
+    margin-left: 200px;
+    position: absolute;
+
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+
+
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body {
+
+    margin: 0px;
+}
+
+.block {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-image: url("eating-snail-enemy-game-charac-unscreen.gif");
+    background-size: cover;
+    margin-top: 590px;
+
+
+}
+
+.flame {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url("Fw3P.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 270px;
+
+}
+
+
+.score {
+    position: absolute;
+    font-size: 70px;
+    font-family: arial;
+    font-weight: 500;
+    margin-left: 60px;
+    color: white;
+    margin-top: 32px;
+
+
+}
+
+.gameover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    margin-top: -50px;
+
+}
+
+.scorer {
+    background-image: url(endif.png);
+    position: absolute;
+
+    width: 1000px;
+    height: 800px;
+    background-repeat: no-repeat;
+    margin-left: 330px;
+    margin-top: 20px;
+    visibility: hidden;
+
+}
+
+.scoreboard {
+    position: absolute;
+    width: 500px;
+    margin-top: -180px;
+    margin-left: -40px;
+
+}
+
+.btm {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(234, 190, 14);
+
+    font-size: 24px;
+    font-family: arial;
+    font-weight: bold;
+
+    border-style: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+.audio1 {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 800px;
+
+}
+
+.videonew {
+    position: absolute;
+}
+
+.start {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+
+    justify-content: center;
+    margin-left: 700px;
+    display: flex;
+    margin-top: 620px;
+}
+
+.instructions {
+
+    position: absolute;
+    font-size: 40px;
+    font-family: arial;
+    margin-top: 300px;
+}
+
+.insbutton {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 800px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: none;
+
+    background-color: rgb(234, 190, 14);
+
+}
+
+.insbutton2 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 780px;
+    margin-top: 100px;
+    border: none;
+    border-radius: 10px;
+
+    background-color: rgb(234, 190, 14);
+
+}
+
+.insbutton3 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 890px;
+    margin-top: 280px;
+    border-radius: 10px;
+    border: none;
+}
+
+.Home1 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+
+    background-color: rgb(234, 190, 14);
+    border: none;
+    border-radius: 10px;
+
+}
+
+.wonb {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+
+    background-color: rgb(234, 190, 14);
+    border: none;
+    border-radius: 10px;
+
+}
+
+.background1 {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(backgrounddimage.jpg);
+    background-size: cover;
+
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.background4 {
+    background-image: url(instructions.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body2 {
+    margin: 0px;
+
+}
+
+.ninja1 {
+    margin-left: 1000px;
+
+}
+
+.high {
+    width: 500px;
+    height: 250px;
+
+    background-image: url(kisspng-sunset-beach-420-day-logo-brand-high-score-5b3668b93726b7.4091021915302924092259-removebg-preview.png);
+    background-size: cover;
+
+    overflow-x: hidden;
+    position: absolute;
+
+    margin-left: 700px;
+    visibility: hidden;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.won {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 90px;
+    font-family: arial;
+    font-weight: bold;
+
+    background-image: url(win.jpg);
+
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.score2 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 40px;
+
+    border: none;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.b4 {
+
+    width: 400px;
+    margin-left: 750px;
+    margin-top: 180px;
+}
+
+.playy {
+    width: 500px;
+    margin-left: 550px;
+}
+
+.infob {
+    width: 500px;
+    margin-left: -200px;
+}
+
+.audio1 {
+    margin-top: 550px;
+}
+
+.audio2 {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 800px;
+}
+
+.devinfo {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 720px;
+
+    background-color: rgb(130, 109, 16);
+    border-radius: 10px;
+}
+
+.endhome {
+    width: 300px;
+    height: 150px;
+    margin-top: -10px;
+}
+
+.lasthome {
+    width: 400px;
+}
+
+
